@@ -1,24 +1,24 @@
 @font-face {
-    font-family: "libsans";
-    src: url("libsans.ttf");
+    font-family: "ubuntu";
+    src: url("ubuntu.ttf");
 }
 body, font, a, p, b, i, strong, em, li {
-    background-color: #dcdad5;
+    background-color: #e4e4e4;
     color: #000;
-    font-family: "libsans";
+    font-family: "ubuntu";
     font-size: 14pt;
 }
 table, tr, td, th {
-    background-color: #dcdad5;
+    background-color: #e4e4e4;
     color: #000;
-    font-family: "libsans";
+    font-family: "ubuntu";
     font-size: 14pt;
     text-align: center;
 }
 input, select, textarea {
     background-color: #fff;
     color: #000;
-    font-family: "libsans";
+    font-family: "ubuntu";
     font-size: 14pt;
 }
 .top {
@@ -36,6 +36,10 @@ input, select, textarea {
     top: 15%;
     overflow-y: scroll;
 }
+.hover:hover {
+    opacity: 0.7;
+    position: relative;
+}
 .actionButton {
     background-color: #fff;
     color: #000;
@@ -49,7 +53,7 @@ input, select, textarea {
     border: none;
     text-align: center;
     position: relative;
-    font-family: "libsans";
+    font-family: "ubuntu";
     font-size: 16pt;
     overflow-x: scroll;
     width: 90%;
@@ -61,13 +65,16 @@ input, select, textarea {
     border: none;
     text-align: center;
     position: relative;
-    font-family: "libsans";
+    font-family: "ubuntu";
     font-size: 16pt;
     overflow-x: scroll;
     width: 90%;
     height: 40%;
 }
 .actionIcon {
-    height: 10%;
+    height: 92%;
     position: relative;
+}
+.actionIcon:hover {
+    opacity: 0.7;
 }
