@@ -18,6 +18,8 @@ table, tr, td, th {
 input, select, textarea {
     background-color: #fff;
     color: #000;
+    border: none;
+    border-radius: 3px;
     font-family: "ubuntu";
     font-size: 14pt;
 }
@@ -44,7 +46,8 @@ input, select, textarea {
     background-color: #fff;
     color: #000;
     font-size: 16pt;
-    width: 29px;
+    width: 27px;
+    font-weight: bold;
     position: relative;
 }
 .inputPanel {
