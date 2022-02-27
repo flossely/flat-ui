@@ -80,6 +80,7 @@ input, select, textarea {
 .actionIcon {
     height: 10%;
 }
-.actionIcon:hover {
+.actionIconButton:hover {
+    position: relative;
     opacity: 0.7;
 }
