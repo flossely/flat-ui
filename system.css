@@ -3,7 +3,7 @@
     src: url("ubuntu.ttf");
 }
 body, font, a, p, b, i, strong, em, li {
-    background-color: #e4e4e4;
+    background-color: #e0e0e0;
     color: #000;
     font-family: "ubuntu";
     font-size: 14pt;
